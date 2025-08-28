@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/main.css">
+    <script type="module" src="Scripts/main.js"></script>
+    <title>FrontEnd Estatico</title>
+</head>
+<body>
+    <head>
+        <h1>¿Cuál es tu lenguaje de programación favorito?</h1>
+    </head>
+    <main>
+        <section class="laInfo">
+            <div>
+                <table class="datos_entrada">
+                    <caption>Datos Personales</caption>  
+                    <tr>
+                        <td>Nombre</td>
+                        <td>
+                            <input type="text" value="" id="elNombre" name="nombre">
+                        </td>
+                    </tr>                    
+                    <tr>
+                    <tr>
+                        <td>Lenguajes</td>
+                        <td>
+                            <select id="elLenguaje">
+                                <option value="Java" selected>Java es Java</option><!-- Opción por defecto -->
+                                <option value="Python">Python</option> 
+                                <option value="C++">C++</option> 
+                                <option value="Otro">Otro</option>                         
+                            </select>  
+                        </td>
+                    </tr>                           
+                </table>
+            </div>
+            <div class="error" id="error"></div>
+            <div>
+                <textarea id="laRespuesta" readonly>Salida---</textarea>
+            </div>
+            <div>
+                <button id="ejecutar">Votar</button> 
+                <button id="recordar">Ver historial</button>
+
+                <button id="resultados">Ver Resultados</button>
+                
+            </div>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="coloreado">
+            Samuel David Zambrano Ordoñez / 2236151
+        </div>
+    </footer>     
+</body>
+</html>
